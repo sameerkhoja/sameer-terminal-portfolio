@@ -34,7 +34,7 @@ function FocusStrip() {
 function HomeOutput() {
   return (
     <section className="output output-home">
-      <div className="kicker"><span>●</span> SYSTEM ONLINE / SF BAY AREA</div>
+      <div className="kicker">Based in San Francisco, California</div>
       <h1>
         Sameer Khoja builds <em>search, voice, and AI</em> products at scale.
       </h1>

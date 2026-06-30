@@ -139,8 +139,8 @@ export function Terminal() {
 
           <section className="console-panel">
             <div className="console-toolbar">
-              <div className="console-tab"><span>&gt;_</span> portfolio.sh</div>
-              <div className="session-id">SESSION LIVE-SK</div>
+              <div className="console-tab"><span>&gt;_</span> portfolio</div>
+              <div className="session-id">Interactive profile</div>
             </div>
 
             <nav className="command-deck" aria-label="Quick commands">
@@ -198,9 +198,9 @@ export function Terminal() {
         </div>
 
         <footer className="status-bar">
-          <span><i /> ONLINE</span>
-          <span>↑↓ HISTORY</span>
-          <span>TAB AUTOCOMPLETE</span>
+          <span><i /> Available</span>
+          <span>↑↓ Command history</span>
+          <span>Tab to complete</span>
           <span>© {new Date().getFullYear()} SAMEER KHOJA</span>
         </footer>
       </section>
