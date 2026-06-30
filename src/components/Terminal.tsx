@@ -122,10 +122,6 @@ export function Terminal() {
         <div className="workspace">
           <aside className="identity-panel">
             <div>
-              <p className="identity-label">IDENTITY / 001</p>
-              <div className="portrait-mark" aria-hidden="true">
-                <span>SK</span><i /><i />
-              </div>
               <h2>{profile.name}</h2>
               <p className="identity-role">{profile.role}</p>
               <p className="identity-headline">{profile.headline}</p>

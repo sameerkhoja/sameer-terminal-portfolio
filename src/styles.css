@@ -106,21 +106,7 @@ body::before {
   border-right: 1px solid var(--line);
   background: linear-gradient(180deg, rgba(14,31,24,.9), rgba(8,18,14,.9));
 }
-.identity-label, .section-index { margin: 0 0 18px; color: var(--green); font-size: 9px; letter-spacing: .18em; }
-.portrait-mark {
-  width: 102px; height: 102px; position: relative; display: grid; place-items: center;
-  margin: 18px 0 25px; border: 1px solid var(--line-bright); border-radius: 50%;
-  background: radial-gradient(circle, rgba(117,240,177,.11), transparent 68%);
-}
-.portrait-mark::before, .portrait-mark::after {
-  content: ""; position: absolute; border-radius: 50%; border: 1px solid rgba(117,240,177,.16);
-}
-.portrait-mark::before { inset: 9px; }
-.portrait-mark::after { inset: 21px; }
-.portrait-mark span { color: var(--green); font-size: 22px; font-weight: 700; letter-spacing: -.08em; z-index: 1; }
-.portrait-mark i { position: absolute; width: 6px; height: 6px; border-radius: 50%; background: var(--cyan); box-shadow: 0 0 12px var(--cyan); }
-.portrait-mark i:nth-of-type(1) { top: 9px; left: 28px; }
-.portrait-mark i:nth-of-type(2) { right: 13px; bottom: 28px; }
+.section-index { margin: 0 0 18px; color: var(--green); font-size: 9px; letter-spacing: .18em; }
 .identity-panel h2 { margin: 0 0 7px; color: #f3fbf7; font-size: 22px; letter-spacing: -.05em; }
 .identity-role { margin: 0 0 20px; color: var(--cyan); font-size: 11px; text-transform: uppercase; letter-spacing: .07em; }
 .identity-headline { margin: 0; color: var(--muted); font-size: 12px; line-height: 1.7; }
