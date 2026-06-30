@@ -1,6 +1,7 @@
 export const profile = {
   name: "Sameer Khoja",
   shortName: "SK",
+  domain: "sameerkhoja.com",
   role: "Senior Software Engineer",
   location: "San Francisco, CA",
   headline: "Building search, voice, and AI experiences at scale.",
@@ -8,7 +9,8 @@ export const profile = {
     "Senior Software Engineer at YouTube. I lead 0-to-1 product work across generative AI, search, and voice, turning ambitious ideas into reliable experiences.",
   links: {
     email: "sameerkhoja10@gmail.com",
-    github: "https://github.com/sameerkhoja10",
+    github: "https://github.com/sameerkhoja",
+    githubHandle: "sameerkhoja",
     linkedin: "https://www.linkedin.com/in/sameerkhoja",
   },
 };

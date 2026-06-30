@@ -167,7 +167,7 @@ function ContactOutput() {
           <span>Email</span><strong>{profile.links.email}</strong>
         </a>
         <ExternalLink href={profile.links.github}>
-          <span>GitHub</span><strong>@sameerkhoja10</strong>
+          <span>GitHub</span><strong>@{profile.links.githubHandle}</strong>
         </ExternalLink>
         <ExternalLink href={profile.links.linkedin}>
           <span>LinkedIn</span><strong>/in/sameerkhoja</strong>

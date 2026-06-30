@@ -112,8 +112,8 @@ export function Terminal() {
           <div className="window-brand">
             <span className="monogram">SK</span>
             <div>
-              <strong>sameer.dev</strong>
-              <span>product engineer console</span>
+              <strong>{profile.domain}</strong>
+              <span>senior software engineer</span>
             </div>
           </div>
           <div className="window-actions" aria-hidden="true"><i /><i /><i /></div>
@@ -144,7 +144,7 @@ export function Terminal() {
           <section className="console-panel">
             <div className="console-toolbar">
               <div className="console-tab"><span>&gt;_</span> portfolio.sh</div>
-              <div className="session-id">SESSION 0610-SK</div>
+              <div className="session-id">SESSION LIVE-SK</div>
             </div>
 
             <nav className="command-deck" aria-label="Quick commands">
