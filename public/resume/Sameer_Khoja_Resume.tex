@@ -1,0 +1,89 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[margin=0.82in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[hidelinks]{hyperref}
+\usepackage{enumitem}
+\usepackage{tabularx}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\tabcolsep}{0pt}
+\renewcommand{\familydefault}{\rmdefault}
+
+\newcommand{\sectionheading}[1]{%
+  \vspace{1.15em}
+  {\large\bfseries\MakeUppercase{#1}}\par
+  \vspace{0.25em}
+  \hrule height 1.2pt
+  \vspace{0.85em}
+}
+
+\newcommand{\experience}[4]{%
+  {\bfseries #1, #2, #3}\par
+  {\bfseries #4}\par
+  \vspace{0.35em}
+}
+
+\newenvironment{resumebullets}{%
+  \begin{itemize}[
+    leftmargin=1.55em,
+    itemsep=0.08em,
+    topsep=0pt,
+    parsep=0pt,
+    partopsep=0pt
+  ]
+}{%
+  \end{itemize}
+}
+
+\begin{document}
+
+\begin{tabularx}{\textwidth}{Xr}
+  {\Huge\bfseries Sameer Khoja} &
+  San Francisco, CA, United States \textbullet{}
+  \href{tel:9723455371}{9723455371} \\
+  {\LARGE\bfseries Software Engineer} &
+  \href{mailto:sameerkhoja10@gmail.com}{sameerkhoja10@gmail.com}
+\end{tabularx}
+
+\sectionheading{Professional Experience}
+
+\experience{YouTube}{San Bruno, CA}{Mar 2022 -- Present}{Senior Software Engineer}
+\begin{resumebullets}
+  \item Pioneering Gen-AI on YouTube Search. Tech Lead for full-stack prototyping, design, and end to end execution for Ask Search 0-to-1 features.
+  \item Expert in Voice within YouTube on the TV: Serve as the subject matter expert for voice, successfully reducing soft mic latency by 60\%. Implemented core end to end features like audio saving, hold-to-talk, Redux state management, language selection, logging and metrics and more.
+  \item Drove platform modernization efforts, primarily through inline previews across multiple content types, and enabling the seamless transition for YouTube Endemic Shows which launched in 2025.
+  \item Own the Zero Prefix Search experience on YouTube on the TV. Implemented multiple shelves on this surface and led projects which ensured technical independence and cost reduction for new search features.
+  \item Elevated Movie/TV Discovery: Launched immersive movie posters and genre shelves, resulting in a 18\% engagement boost for movies on YouTube.
+\end{resumebullets}
+
+\vspace{0.75em}
+\experience{Google}{Sunnyvale, CA}{Jun 2019 -- Mar 2022}{Software Engineer}
+\begin{resumebullets}
+  \item Lead team of 5+ engineers to oversee creation, suspension, and provision of company vendor contractors.
+  \item Owned and managed COVID-19 suspension feature avoiding re-onboarding of 1000s of vendors and contractors.
+  \item Leading implementation of secure partner collaboration services which reduce FTE time by 67\%.
+  \item Built out Comments API for a tool that manages over 40\% of Google's annual revenue.
+  \item Hosted Summer 2021 interns to help create tools and services for Identity and Access Management.
+\end{resumebullets}
+
+\vspace{0.75em}
+\experience{LinkedIn}{Sunnyvale}{Jun 2018 -- Aug 2018}{Software Engineer Intern}
+\begin{resumebullets}
+  \item Worked under the Flagship Growth team to deliver 4 key features as a part of the Novice Member Experience.
+  \item Built and launched end-to-end search bar feature in LinkedIn's onboarding process, increasing engagement by 10\%.
+  \item Presented newly released feature and assessment on onboarding performance to team's Engineering Director.
+\end{resumebullets}
+
+\sectionheading{Education}
+
+{\bfseries Cornell University}\par
+B.S, Computer Science, Ithaca, Aug 2016 -- May 2019
+
+\sectionheading{Skills \& Interests}
+
+C++, Java, TypeScript, Go, Dart, React, Ember, MySQL, AI tools (Cursor, Lovable Windsurf, AI Studio)
+
+\end{document}

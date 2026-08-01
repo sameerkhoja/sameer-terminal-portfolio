@@ -39,6 +39,10 @@ function HomeOutput() {
         Sameer Khoja builds <em>search, voice, and AI</em> products at scale.
       </h1>
       <p className="lede">{profile.intro}</p>
+      <div className="home-actions" aria-label="Resume actions">
+        <a href="/resume/">View resume</a>
+        <a href="/resume/Sameer_Khoja_Resume.pdf" download>Download PDF</a>
+      </div>
       <FocusStrip />
       <p className="terminal-note">
         Type a command below or choose one from the command deck. Try <code>work</code> first.

@@ -140,6 +140,24 @@ body::before {
 .output h3 { color: var(--text); }
 .kicker { margin-bottom: 18px; color: var(--muted); font-size: 11px; letter-spacing: .02em; }
 .lede { max-width: 700px; margin: 0; color: #aeb4c0; font-family: Inter, ui-sans-serif, system-ui, sans-serif; font-size: 15px; line-height: 1.7; }
+.home-actions { display: flex; flex-wrap: wrap; gap: 9px; margin-top: 19px; }
+.home-actions a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 36px;
+  padding: 0 12px;
+  border: 1px solid var(--line);
+  border-radius: 5px;
+  background: #171b24;
+  color: var(--green);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: .04em;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: .15s ease;
+}
+.home-actions a:hover, .home-actions a:focus-visible { border-color: var(--line-bright); color: var(--text); background: var(--panel-3); outline: none; transform: translateY(-1px); }
 .focus-strip { display: grid; grid-template-columns: repeat(4, minmax(100px,1fr)); gap: 1px; max-width: 760px; margin-top: 27px; border: 1px solid var(--line); background: var(--line); }
 .focus-item { min-height: 108px; display: grid; align-content: center; gap: 6px; padding: 15px; background: #171b24; }
 .focus-item > span { color: var(--green); font-size: 8px; letter-spacing: .12em; }
