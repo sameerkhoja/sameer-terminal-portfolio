@@ -1,8 +1,8 @@
 \documentclass[11pt,a4paper]{article}
 
 \usepackage[margin=0.82in]{geometry}
-\usepackage[T1]{fontenc}
-\usepackage{lmodern}
+\usepackage{fontspec}
+\setmainfont{lmroman10-regular.otf}[BoldFont=lmroman10-bold.otf,LetterSpace=-0.6]
 \usepackage[hidelinks]{hyperref}
 \usepackage{enumitem}
 \usepackage{tabularx}
@@ -13,11 +13,11 @@
 \renewcommand{\familydefault}{\rmdefault}
 
 \newcommand{\sectionheading}[1]{%
-  \vspace{1.15em}
+  \vspace{1.25em}
   {\large\bfseries\MakeUppercase{#1}}\par
   \vspace{0.25em}
   \hrule height 1.2pt
-  \vspace{0.85em}
+  \vspace{0.95em}
 }
 
 \newcommand{\experience}[4]{%
@@ -29,7 +29,7 @@
 \newenvironment{resumebullets}{%
   \begin{itemize}[
     leftmargin=1.55em,
-    itemsep=0.08em,
+    itemsep=0.18em,
     topsep=0pt,
     parsep=0pt,
     partopsep=0pt
@@ -45,21 +45,24 @@
   San Francisco, CA, United States \textbullet{}
   \href{tel:9723455371}{9723455371} \\
   {\LARGE\bfseries Software Engineer} &
-  \href{mailto:sameerkhoja10@gmail.com}{sameerkhoja10@gmail.com}
+  \href{mailto:sameerkhoja10@gmail.com}{sameerkhoja10@gmail.com} \\
+  &
+  \href{https://linkedin.com/in/sameerkhoja}{linkedin.com/in/sameerkhoja} \textbullet{}
+  \href{https://github.com/sameerkhoja10}{github.com/sameerkhoja10}
 \end{tabularx}
 
 \sectionheading{Professional Experience}
 
 \experience{YouTube}{San Bruno, CA}{Mar 2022 -- Present}{Senior Software Engineer}
 \begin{resumebullets}
-  \item Pioneering Gen-AI on YouTube Search. Tech Lead for full-stack prototyping, design, and end to end execution for Ask Search 0-to-1 features.
-  \item Expert in Voice within YouTube on the TV: Serve as the subject matter expert for voice, successfully reducing soft mic latency by 60\%. Implemented core end to end features like audio saving, hold-to-talk, Redux state management, language selection, logging and metrics and more.
-  \item Drove platform modernization efforts, primarily through inline previews across multiple content types, and enabling the seamless transition for YouTube Endemic Shows which launched in 2025.
-  \item Own the Zero Prefix Search experience on YouTube on the TV. Implemented multiple shelves on this surface and led projects which ensured technical independence and cost reduction for new search features.
-  \item Elevated Movie/TV Discovery: Launched immersive movie posters and genre shelves, resulting in a 18\% engagement boost for movies on YouTube.
+  \item Trusted by VP/C-level leadership to bring Ask Search to life on YouTube on TV, pioneering a 0-to-1 generative AI search experience. Technical lead with end-to-end ownership across full-stack prototyping, design, and cross-functional alignment. Drove 6x growth in Ask Search adoption across YouTube.
+  \item Define the technical roadmap for how YouTube on TV integrates with AI-powered search, shaping how viewers interact with these experiences on the big screen.
+  \item Serve as the subject matter expert for voice experiences and led the redesign of voice serving around a Redux-powered architecture. Reduced soft mic latency by 60\% and delivered core capabilities including audio saving, hold-to-talk, language selection, logging, and metrics.
+  \item Drove inline previews across multiple content types, evolving how viewers discover and explore content on TV.
+  \item Enabled the seamless transition to YouTube Endemic Shows, which launched in 2025.
 \end{resumebullets}
 
-\vspace{0.75em}
+\vspace{0.9em}
 \experience{Google}{Sunnyvale, CA}{Jun 2019 -- Mar 2022}{Software Engineer}
 \begin{resumebullets}
   \item Lead team of 5+ engineers to oversee creation, suspension, and provision of company vendor contractors.
@@ -69,7 +72,7 @@
   \item Hosted Summer 2021 interns to help create tools and services for Identity and Access Management.
 \end{resumebullets}
 
-\vspace{0.75em}
+\vspace{0.9em}
 \experience{LinkedIn}{Sunnyvale}{Jun 2018 -- Aug 2018}{Software Engineer Intern}
 \begin{resumebullets}
   \item Worked under the Flagship Growth team to deliver 4 key features as a part of the Novice Member Experience.
